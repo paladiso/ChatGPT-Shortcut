@@ -39,7 +39,7 @@ import styles from "./styles.module.css";
 
 const TITLE = translate({
   message:
-    "ChatGPT Shortcut - 简单易用的 ChatGPT 快捷指令表，让生产力倍增！标签筛选、关键词搜索和一键复制 Prompts",
+    "Ask Prompts - 简单易用的 ChatGPT 快捷指令表，让生产力倍增！标签筛选、关键词搜索和一键复制 Prompts",
 });
 const DESCRIPTION = translate({
   message: "让生产力加倍的 ChatGPT 快捷指令",
@@ -139,7 +139,8 @@ function useFilteredUsers() {
 function ShowcaseHeader() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
-      <Heading as="h1">ChatGPT Shortcut</Heading>
+      <Heading as="h1">Ask Prompts</Heading>
+      <script async src="https://umami.appbox.fun/script.js" data-website-id="33d74ad8-1d8c-49a7-95fa-c4598b526e29"></script>
       <p>{DESCRIPTION}</p>
       <Link className="button button--primary" to={SUBMIT_URL}>
         <Translate id="showcase.header.button">🙏 请添加你的提示词</Translate>
