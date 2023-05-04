@@ -12,7 +12,6 @@ const zhNavbar = {
       position: 'left',
       items: [
         {
-        {
           label: 'IMGPrompt',
           href: 'https://prompt.newzone.top/',
         },
@@ -23,7 +22,7 @@ const zhNavbar = {
         {
           label: 'AI工具',
           href: 'https://naviai.cn',
-        },
+        }
       ],
     },
     {
