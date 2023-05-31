@@ -140,7 +140,7 @@ function ShowcaseHeader() {
   return (
     <section className="margin-top--lg margin-bottom--lg text--center">
       <Heading as="h1">Ask Prompts</Heading>
-      <script async src="https://umami.appbox.fun/script.js" data-website-id="a12aebc1-51b3-4972-8cbb-c56396779eb7"></script>
+      <script async src="https://umamis.zeabur.app/script.js" data-website-id="8d58b349-adf6-4ab8-aaf3-9680df8d8c7f"></script>
       <p>{DESCRIPTION}</p>
       <Link className="button button--primary" to={SUBMIT_URL}>
         <Translate id="showcase.header.button">🙏 请添加你的提示词</Translate>
